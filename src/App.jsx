@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 function Square() {
-  const [value, setValue] = useState(null); // value stores valu and setValue is function used to change value
+  const [value, setValue] = useState(null); // value stores value and setValue is function used to change value
   // null passed to useState is the initial value for state variable so value is equal to null
   function handleClick() {
     setValue('X');
